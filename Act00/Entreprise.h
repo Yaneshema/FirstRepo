@@ -41,12 +41,12 @@ class Entreprise
 
     public:
         /*Classe sous forme canonique*/
-        Entreprise();   
-        ~Entreprise();  
-        Entreprise(const Entreprise& entre); 
-        Entreprise &operator = (const Entreprise& entre); 
+        Entreprise();
+        ~Entreprise();
+        Entreprise(const Entreprise& entre);
+        Entreprise &operator = (const Entreprise& entre);
 
-        Entreprise(std::string nom, std::string ville); 
+        Entreprise(std::string nom, std::string ville);
         std::string getNomEntreprise();
         void setEntreprise(std::string nouveauNom);
         std::string getVilleEntreprise();
